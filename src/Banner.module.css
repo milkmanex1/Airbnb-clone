@@ -1,0 +1,39 @@
+.banner {
+  height: 450px;
+  position: relative;
+  background-image: url("https://media.architecturaldigest.com/photos/6083069faa1b440365d651ce/master/w_960,h_640,c_limit/Montana.jpg");
+  /* object-fit: scale-down; */
+  background-position: 50% 50%;
+  background-size: 50% 100%;
+}
+.bannerInfo {
+  background-color: black;
+  color: white;
+  padding: 12vh 20px 20px 30px;
+  width: 350px;
+}
+.bannerInfo h1 {
+  margin-bottom: 5px;
+}
+.bannerInfo button {
+  background-color: rgb(255, 97, 97);
+  color: white;
+  margin: 10px 0;
+  font-weight: 600;
+}
+.bannerInfo button:hover {
+  background-color: rgb(196, 64, 64);
+  color: white;
+}
+.bannerSearch {
+  display: flex;
+  flex-direction: column;
+  /* this makes the child element stretch to 100% of the width */
+}
+.bannerSearchBtn {
+  background: white !important;
+  font-weight: 900 !important;
+  text-transform: capitalize !important;
+  color: rgb(255, 97, 97) !important ;
+  border: 1px solid lightgrey !important;
+}

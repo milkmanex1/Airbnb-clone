@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+
+  /* This makes the nav bar sticky */
+  position: sticky;
+  top: 0;
+
+  /*So it covers everything */
+  z-index: 100;
+}
+
+.header-icon {
+  object-fit: contain;
+  height: 60px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.header-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /*Flex:1---We want this section to take up as much room as possible */
+  /* It will take up the remaining full space  */
+
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 100px;
+}
+
+.header-center input {
+  width: 300px;
+  border: none;
+  padding: 5px;
+  padding-left: 20px;
+  outline: 0;
+  font-size: 25px;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20vw;
+  margin-right: 50px;
+}
+.header-right * {
+  cursor: pointer;
+}
+.language {
+  display: flex;
+  flex-direction: row;
+}

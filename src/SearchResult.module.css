@@ -1,0 +1,53 @@
+.result {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-bottom: 1px solid rgb(195, 194, 194);
+  padding: 20px;
+  padding-right: 60px;
+  padding-left: 80px;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+.left img {
+  height: 300px;
+  object-fit: cover;
+
+  border-radius: 10px;
+}
+
+.left img:hover {
+  opacity: 0.8;
+}
+.right {
+  min-width: 260px;
+}
+.hearts {
+  display: flex;
+  justify-content: end;
+}
+.top {
+  margin-bottom: 20px;
+}
+.top p {
+  color: rgb(103, 103, 103);
+}
+.price {
+  display: grid;
+  place-content: end;
+}
+
+.bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.stars {
+  display: flex;
+  align-items: flex-end;
+}

@@ -1,4 +1,4 @@
-Demo here: https://netflix-clone-e9281.web.app/
+Demo here: https://airbnb-clone-369db.web.app/
 
 ## Airbnb Clone
 I built the landing page of airbnb.

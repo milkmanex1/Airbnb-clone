@@ -29,29 +29,45 @@
   /* It will take up the remaining full space  */
 
   padding: 10px;
-  border: 1px solid lightgrey;
+  /* border: 1px solid lightgrey; */
   border-radius: 100px;
 }
 
 .header-center input {
-  width: 300px;
+  width: 320px;
   border: none;
   padding: 5px;
   padding-left: 20px;
   outline: 0;
-  font-size: 25px;
+  font-size: 22px;
 }
+.header-search-icon {
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
 .header-right {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 20vw;
-  margin-right: 50px;
+  margin-right: 40px;
 }
 .header-right * {
   cursor: pointer;
+
+  /* background-color: lightgray;
+  border-radius: 5px;
+  border: 2px solid lightgrey; */
 }
+/* .header-right *:hover {
+  background-color: rgb(244, 242, 242);
+  border-radius: 5px;
+  border: 2px lightgrey;
+} */
 .language {
   display: flex;
   flex-direction: row;
+  margin: 0 20px;
 }
